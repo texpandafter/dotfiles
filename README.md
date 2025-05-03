@@ -208,13 +208,19 @@ These are my personal dotfiles for macOS, managed with [chezmoi](https://github.
    chezmoi apply
    ```
 
-3. **Install packages:**
+3. **Navigate to the working copy:**
+
+   ```sh
+   chezmoi cd
+   ```
+
+4. **Install packages:**
 
    ```sh
    ./run_once_install_packages.sh
    ```
 
-4. **Apply system settings:**
+5. **Apply system settings:**
 
    ```sh
    ./run_once_settings.sh
