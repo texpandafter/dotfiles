@@ -3,6 +3,7 @@
 SOURCE_DIR=$(chezmoi source-path)
 
 . "$SOURCE_DIR/scripts/utils"
+. "$SOURCE_DIR/scripts/utils_install"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -24,6 +25,10 @@ fi
 execute "if [ ! -d $HOME/.config/nvim ]; then git clone git@github.com:joelazar/nvim-config.git $HOME/.config/nvim; fi;" "Clone neovim config repo"
 
 execute "fish -c 'echo y | fish_config theme save TokyoNight Night'" "Set fish theme"
+
+while IFS= read -r plugin || [[ -n "$plugin" ]]; do
+    install_fish_plugin "$plugin" "Install $plugin"
+done < "$SOURCE_DIR/dot_config/private_fish/fish_plugins"
 
 # settings based on https://mac-key-repeat.zaymon.dev/
 execute "defaults write NSGlobalDomain KeyRepeat -int 1" "Keyboard: Set 15 ms key repeat"
