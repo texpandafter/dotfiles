@@ -224,5 +224,12 @@
       "o": "editor::ExpandAllDiffHunks",
       "r": "git::Restore"
     }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "j k": ["workspace::SendKeystrokes", "escape"],
+      "j j": ["workspace::SendKeystrokes", "escape"]
+    }
   }
 ]
