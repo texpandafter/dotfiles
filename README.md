@@ -204,7 +204,7 @@ These are my personal dotfiles for macOS, managed with [chezmoi](https://github.
 2. **Initialize dotfiles:**
 
    ```sh
-   chezmoi init https://github.com/joelazar/dotfiles.git
+   chezmoi init https://github.com/texpandafter/dotfiles.git
    chezmoi apply
    ```
 

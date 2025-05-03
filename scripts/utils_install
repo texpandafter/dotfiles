@@ -30,7 +30,7 @@ install_chezmoi() {
 
         # Check if dotfiles are already cloned
         if [ ! -d "$HOME/.local/share/chezmoi" ]; then
-            git clone git@github.com:joelazar/dotfiles.git ~/.local/share/chezmoi
+            git clone git@github.com:texpandafter/dotfiles.git ~/.local/share/chezmoi
             print_result $? "Cloned dotfiles repository"
         else
             print_success "Dotfiles repository already exists"
