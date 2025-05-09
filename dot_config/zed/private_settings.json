@@ -453,5 +453,6 @@
     "vscode-icons": true,
     "wakatime": true,
     "zig": true
-  }
+  },
+  "format_on_save": "off"
 }
