@@ -249,7 +249,6 @@
     },
     "working_directory": "current_project_directory"
   },
-  "load_direnv": "shell_hook",
   "file_types": {
     "Dockerfile": ["Dockerfile*"],
     "Ansible": [

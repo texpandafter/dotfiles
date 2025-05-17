@@ -11,13 +11,6 @@ disabled = true
 variable = "YAZI_LEVEL"
 format = "[🦆](yellow) "
 
-[direnv]
-disabled = false
-format = '[$symbol$loaded]($style) '
-detect_files = [".envrc", ".env"]
-loaded_msg = "👍"
-unloaded_msg = "🚫"
-
 [git_metrics]
 disabled = false
 

@@ -16,13 +16,6 @@
     "reveal": "always"
   },
   {
-    "label": "python: run current file in venv",
-    "command": "source .venv/bin/activate.fish && direnv export fish | source && python $ZED_RELATIVE_FILE",
-    "use_new_terminal": false,
-    "allow_concurrent_runs": false,
-    "reveal": "always"
-  },
-  {
     "label": "lazygit",
     "command": "lazygit",
     "use_new_terminal": false,

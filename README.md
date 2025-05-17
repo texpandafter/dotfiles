@@ -38,7 +38,7 @@ These are my personal dotfiles for macOS, managed with [chezmoi](https://github.
 - **Consistent theming** (Tokyo Night)
 - **Modern CLI utilities** for navigation, search, and productivity
 - **Editor and terminal integration** (Neovim, Zed, Ghostty)
-- **Rich shell experience** (Fish, Starship, Atuin, Direnv)
+- **Rich shell experience** (Fish, Starship, Atuin)
 - **Developer tooling** for Python, Go, Rust, Node.js, Docker, Kubernetes, and more
 
 ---
@@ -79,7 +79,6 @@ These are my personal dotfiles for macOS, managed with [chezmoi](https://github.
   - Custom PATH setup for Homebrew, Go, Node, Python, Rust, etc.
   - Plugin management via Fisher (`fish_plugins`)
   - FZF integration with advanced keybindings and preview commands
-  - Atuin for shell history, Direnv for project environments, Zoxide for smart `cd`
   - Custom functions (e.g., `ssh-tunnel`, `yy` for Yazi directory jumping, `diff` with delta)
 
 ### [Neovim](https://neovim.io/) 🥷
@@ -121,13 +120,7 @@ These are my personal dotfiles for macOS, managed with [chezmoi](https://github.
 - **Config:** See [`dot_config/starship.toml`](dot_config/starship.toml)
 - **Features:**
   - Custom prompt symbols and module settings
-  - Integration with Direnv, Sudo, and more
-
-### [Direnv](https://direnv.net/) 🌱
-
-- **Config:** See [`dot_config/direnv/direnv.toml`](dot_config/direnv/direnv.toml)
-- **Features:**
-  - Automatic loading of `.envrc` and `.env` files for project-specific environments
+  - Integration with Sudo, and more
 
 ### [Delta](https://github.com/dandavison/delta) 🌈
 
