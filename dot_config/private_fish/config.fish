@@ -147,3 +147,5 @@ set -U __done_exclude n
 if test -e $HOME/.config/fish/.local.fish
     source $HOME/.config/fish/.local.fish
 end
+
+source /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
